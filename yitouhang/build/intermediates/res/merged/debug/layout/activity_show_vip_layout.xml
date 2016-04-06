@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/title_grey"
+        >
+        <FrameLayout 
+            android:id="@+id/backlayout"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            >
+            <ImageView 
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/img_back"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIP"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            />
+        
+        <TextView 
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="理财"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+    
+    <com.laxiong.View.PinnedSectionListView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sectionListview"
+        android:headerDividersEnabled="false"
+    	android:footerDividersEnabled="false"
+    	android:divider="@color/divider_grey"
+    	android:dividerHeight="1dp"
+    	android:background="@color/white"
+        />
+
+</LinearLayout>

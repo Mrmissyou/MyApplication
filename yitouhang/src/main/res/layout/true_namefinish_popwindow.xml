@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kefu_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="230dp"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@drawable/popwindow_bg"
+        >
+        <ImageView 
+            android:id="@+id/imgs"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/corners_border"
+            android:layout_marginTop="18dp"
+            />
+        <View 
+          android:id="@+id/view1"
+          android:layout_marginTop="16dp"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/divider_grey"
+          android:layout_below="@id/imgs"
+          />
+        <TextView 
+            android:id="@+id/kown"
+            android:layout_below="@id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="寡人知道了"
+            android:gravity="center"
+            />
+        
+    </RelativeLayout>
+    
+</RelativeLayout>

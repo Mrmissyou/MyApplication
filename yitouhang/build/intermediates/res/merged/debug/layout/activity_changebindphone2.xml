@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical" >
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/white_title_head_layout"/>
+    
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="输入尚未注册的新手机号码"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_marginLeft="23dp"
+        android:textColor="@color/divider_grey"
+        />
+    
+     
+     <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+     
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="81dp"
+         android:orientation="vertical"
+         android:background="@color/white"
+         >
+         	<RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:background="@color/white"
+	        >
+	        <TextView
+	            android:id="@+id/tv3" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:text="手机号"
+	            android:textSize="14dp"
+	            android:layout_marginLeft="23dp"
+	            android:gravity="center"
+	            />
+	        <EditText
+	            android:layout_marginLeft="5dp" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_toRightOf="@+id/tv3"
+	            android:hint="请输入手机号码"
+	            android:textSize="14dp"
+	            android:gravity="center"
+	            android:background="@null"
+	            />
+	     </RelativeLayout>
+         
+	        <View 
+	           android:layout_width="match_parent"
+	           android:layout_height="1dp"
+	           android:background="@color/divider_grey" 
+	           android:layout_marginLeft="23dp"
+	          />
+         
+	        
+         <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="40dp"
+		        android:background="@color/white"
+		        >
+		        <TextView
+		            android:id="@+id/tv1" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:text="验证码"
+		            android:textSize="14dp"
+		            android:layout_marginLeft="23dp"
+		            android:gravity="center"
+		            />
+		        <EditText
+		            android:layout_marginLeft="5dp" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_toRightOf="@+id/tv1"
+		            android:hint="短信验证码"
+		            android:textSize="14dp"
+		            android:gravity="center"
+		            android:background="@null"
+		            />
+		        <TextView 
+		            android:id="@+id/code"
+		            android:layout_width="80dp"
+		            android:layout_height="match_parent"
+		            android:text="获取验证码"
+		            android:textSize="13dp"
+		            android:gravity="center"
+		            android:layout_alignParentRight="true"
+		            android:paddingRight="10dp"
+		            />
+		    </RelativeLayout>
+	      
+     </LinearLayout>
+     
+     <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+    
+     <!-- 按钮 -->
+     <RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         >
+         <TextView 
+             android:id="@+id/finishBtn"
+             android:layout_marginTop="60dp"
+             android:layout_width="288dp"
+             android:layout_height="40dp"
+             android:text="完成"
+             android:gravity="center"
+             android:textColor="@color/white"
+             android:background="@drawable/button_red_corner_border"
+             android:layout_centerHorizontal="true"
+             />
+         
+         
+     </RelativeLayout>
+     
+     
+
+</LinearLayout>

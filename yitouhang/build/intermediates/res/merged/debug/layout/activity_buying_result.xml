@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/white_title_head_layout"/>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="这个区域是对充值结果的图形化展示"
+            android:textColor="#A6A6A6"
+            android:gravity="center"
+            />
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="转入成功"
+            android:textColor="#A6A6A6"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+    
+    <View 
+      android:layout_marginTop="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="70dp"
+         android:orientation="vertical"
+         android:background="@color/white"
+         >
+         <RelativeLayout 
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:paddingLeft="20dp"
+             android:paddingRight="20dp"
+             >
+             <TextView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:text="产品名称"
+                 android:textColor="#A6A6A6"
+                 android:textSize="14sp"
+                 android:gravity="center_vertical"
+                 />
+             <TextView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:text="碳银宝3期"
+                 android:textColor="#A6A6A6"
+                 android:textSize="14sp"
+                 android:gravity="center_vertical"
+                 android:layout_alignParentRight="true"
+                 />
+         </RelativeLayout>
+         
+         <RelativeLayout 
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:paddingLeft="20dp"
+             android:paddingRight="20dp"
+             >
+             <TextView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:text="购买金额"
+                 android:textColor="#A6A6A6"
+                 android:textSize="14sp"
+                 android:gravity="center_vertical"
+                 />
+             <TextView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:text="49,950"
+                 android:textColor="#A6A6A6"
+                 android:textSize="14sp"
+                 android:gravity="center_vertical"
+                 android:layout_alignParentRight="true"
+                 />
+         </RelativeLayout>
+     </LinearLayout>
+     <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+     
+     
+     <View 
+      android:layout_marginTop="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="70dp"
+         android:orientation="vertical"
+         android:paddingLeft="20dp"
+         android:paddingRight="20dp"
+         android:background="@color/white"
+         >
+         
+         
+         
+         
+     </LinearLayout>
+     <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+     
+     
+     <RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="vertical"
+         >
+	     <TextView 
+	         android:layout_centerInParent="true"
+	         android:layout_width="280dp"
+	         android:layout_height="40dp"
+	         android:text="完成"
+	         android:textColor="@color/white"
+	         android:background="@drawable/button_red_corner_border"
+	         android:gravity="center"
+	         />
+     </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/main_head_layout"
+        android:background="@color/title_grey"
+        android:layout_height="45dp">
+        <!-- 人头的页面 -->
+        <FrameLayout 
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/head_myself_details"
+            >
+            <ImageView 
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/img_count"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+         
+         <TextView 
+             android:id="@+id/head_title"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+           	 android:layout_centerInParent="true"
+             android:text="壹投行"
+             android:gravity="center"
+             android:textColor="@color/white"
+             android:textSize="16sp"
+             />
+         <TextView
+             android:id="@+id/head_gongshilicai"
+             android:layout_below="@id/head_title" 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+           	 android:layout_centerInParent="true"
+             android:text="(原共识理财)"
+             android:gravity="center"
+             android:textColor="@color/white"
+             android:textSize="8sp"
+             />
+         
+         <!-- vip 和  账单日历的按钮 -->
+         <TextView 
+             android:id="@+id/head_select_right_textview"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_alignParentRight="true"
+             android:text="VIP"
+             android:textColor="@color/white"
+             android:gravity="center"
+             android:paddingRight="10dp"
+             android:paddingLeft="5dp"
+             android:visibility="gone"
+             />
+     </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical" >
+    
+    <include 
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/white_title_head_layout"/>
+    
+    
+    <View 
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+    <RelativeLayout 
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:paddingLeft="23dp"
+        >
+        <EditText 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="原登录密码"
+            android:textSize="15dp"
+            android:background="@null"
+            />
+    </RelativeLayout>
+    <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+    
+    
+    <View 
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+    <RelativeLayout 
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:paddingLeft="23dp"
+        >
+        <EditText 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="新登录密码"
+            android:textSize="15dp"
+            android:background="@null"
+            />
+        
+        <!-- 小眼睛 -->
+        <ImageView 
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@color/divider_grey"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28dp"
+            />
+    </RelativeLayout>
+    <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+    
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView 
+            android:id="@+id/complete"
+            android:layout_marginTop="50dp"
+            android:layout_width="288dp"
+            android:layout_height="40dp"
+            android:text="完成"
+            android:gravity="center"
+            android:background="@drawable/button_red_corner_border"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            />
+        
+        
+        
+    </RelativeLayout>
+    
+    
+
+</LinearLayout>

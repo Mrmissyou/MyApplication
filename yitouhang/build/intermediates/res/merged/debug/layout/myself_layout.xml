@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/title_grey"
+        android:gravity="center"
+        >
+        <TextView 
+            android:id="@+id/togetche"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--账号总资产（元）--"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            />
+        
+        <TextView
+            android:id="@+id/togetche_tv"
+             android:layout_marginTop="5dp"
+            android:layout_below="@id/togetche" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00.00"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            />
+        
+        <RelativeLayout
+            android:id="@+id/availablebalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/togetche_tv"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="可用余额(元)" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="1dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:background="@color/light_white" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/view"
+                android:textColor="@color/white"
+                android:text="累计收益(元)" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv2"
+                android:layout_toRightOf="@+id/view"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:text="0.00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView1"
+                android:layout_alignBottom="@+id/textView1"
+                android:layout_alignRight="@+id/tv1"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:text="0.00" />
+        </RelativeLayout>
+        
+    </RelativeLayout>
+    
+    <!-- 提现等 -->
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:id="@+id/withdrawcash" 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/imgs1" 
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/corners_border"
+                />
+            <TextView 
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:text="提现"
+                android:textSize="13dp"
+                android:layout_below="@id/imgs1"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+        
+        <View 
+            android:layout_marginTop="5dp"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider_grey"
+            android:layout_marginBottom="5dp"
+            />
+        <RelativeLayout 
+            android:id="@+id/recharge"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/imgs2" 
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/corners_border"
+                />
+            <TextView 
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:text="充值"
+                android:textSize="13dp"
+                android:layout_below="@id/imgs2"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"
+      />
+    
+    
+    <View 
+      android:layout_marginTop="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"
+      />
+    <!-- 积分商城等 -->
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView 
+                android:id="@+id/imgs3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/corners_border"
+                />
+            <TextView 
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="投资细明"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_below="@id/imgs3"
+                />
+        </RelativeLayout>
+        
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider_grey"
+            />
+        
+         <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView 
+                android:id="@+id/imgs4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/corners_border"
+                />
+            <TextView 
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="福利中心"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_below="@id/imgs4"
+                />
+        </RelativeLayout>
+        
+         
+         <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider_grey"
+            />
+         
+          <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView 
+                android:id="@+id/imgs5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/corners_border"
+                />
+            <TextView 
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="积分商城"
+                android:textSize="11dp"
+                android:layout_below="@id/imgs5"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+    	<View 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_grey"
+            />
+    
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView 
+                android:id="@+id/imgs6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/corners_border"
+                />
+            <TextView 
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="活动大厅"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_below="@id/imgs6"
+                />
+        </RelativeLayout>
+        
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider_grey"
+            />
+        
+         <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView 
+                android:id="@+id/imgs7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/corners_border"
+                />
+            <TextView 
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="人脉收益"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_below="@id/imgs7"
+                />
+        </RelativeLayout>
+        
+         
+         <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider_grey"
+            />
+         
+          <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView 
+                android:id="@+id/imgs8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/corners_border"
+                />
+            <TextView 
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="邀请好友"
+                android:textSize="11dp"
+                android:layout_below="@id/imgs8"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+    
+    
+    <!-- 客服等信息 -->
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+        <TextView 
+            android:id="@+id/ke_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="客服热线：400-0888-888"
+            android:textSize="11dp"
+            android:textColor="@color/divider_grey"
+            />
+        <TextView 
+            android:layout_below="@id/ke_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工作时间：9.00-20.00"
+            android:textSize="11dp"
+            android:textColor="@color/divider_grey"
+            />
+        
+    </RelativeLayout>
+    
+    
+</LinearLayout>

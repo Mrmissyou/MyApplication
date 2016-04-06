@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:gravity="center"
+     android:background="@drawable/kefu_bg"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="180dp"
+        android:background="@drawable/popwindow_bg"
+        android:orientation="vertical"
+        >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/tv" 
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:text="请输入壹投行支付密码"
+                android:textSize="16dp"
+                android:gravity="center"
+                />
+            <ImageView 
+                android:id="@+id/imgs_concel"
+                android:layout_toRightOf="@+id/tv"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@color/divider_grey"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+        
+        <View 
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/divider_grey"
+          />
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用于修改支付密码"
+                android:textSize="14dp"
+                />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <!-- 
+            <EditText
+                android:id="@+id/paypswd"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/changepaypswd_edittext_bg"
+                />
+            -->
+            <com.laxiong.View.PasswordInputView 
+                android:id="@+id/paypswd"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:maxLength="6"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    
+
+</RelativeLayout>

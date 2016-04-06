@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/white_title_head_layout"/>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="转出到帐户余额"
+        android:textColor="#A6A6A6"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center_vertical"
+        />
+    
+    <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="@color/divider_grey"  
+       />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@color/white"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="金额"
+            android:gravity="center_vertical"
+            />
+        <EditText 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:hint="请输入金额"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:background="@null"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="元"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+    <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="@color/divider_grey"  
+       />
+    
+    
+    
+    <TextView
+        android:layout_marginTop="20dp" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="本次最多可转出35,175元，转出立即到我的余额，可前往资产页进行提现；"
+        android:textColor="#A6A6A6"
+        android:textSize="12sp"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="今日还可以从时息通转出3次"
+        android:textColor="#A6A6A6"
+        android:textSize="12sp"
+        />
+
+    
+    <TextView
+        android:layout_marginTop="50dp" 
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:text="确认转出"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/button_red_corner_border"
+        android:layout_gravity="center_horizontal"
+        />
+    
+    
+</LinearLayout>

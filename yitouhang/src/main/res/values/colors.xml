@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_mi">#efede0</color>
+    <color name="white">#ffffff</color>
+    <color name="light_white">#66ffffff</color>
+    <color name="light_green">#83c254</color>
+    <color name="press_light_green">#6683c254</color>
+    <color name="fresh_green">#c4f089</color>
+    <color name="divider_grey">#cccccc</color>
+    
+    <color  name="light_grey">#F5F5F5</color>
+    <color  name="title_grey">#EE4E42</color>
+</resources>

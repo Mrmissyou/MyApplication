@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical" >
+     <!-- 标题 -->
+    <RelativeLayout
+        android:id="@+id/rel1" 
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/title_grey"
+        >
+        <!-- 返回箭头 -->
+        <FrameLayout 
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/back_layout"
+            >
+            <ImageView 
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/img_back"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+           	 android:layout_centerInParent="true"
+           	 android:orientation="horizontal"
+             > 
+             <TextView
+                 android:id="@+id/yesterdaybalance" 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="昨日收益"
+                 android:textColor="@color/white"
+                 android:gravity="center"
+                 android:textSize="14sp"
+                 android:paddingRight="3dp"
+                 />
+             
+            <View
+              android:layout_width="1dp"
+              android:layout_height="match_parent"
+              android:background="@color/white"   
+             />
+            
+            <TextView
+               android:id="@+id/availablebanlance"
+               android:paddingLeft="3dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="累计收益"
+               android:textColor="@color/white"
+               android:gravity="center"
+               android:textSize="12sp"
+               />
+         </LinearLayout>
+         <TextView 
+             android:id="@+id/talkcarefor"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:text="说明"
+             android:textColor="@color/white"
+             android:gravity="center"
+             android:textSize="11dp"
+             android:layout_alignParentRight="true"
+             android:paddingRight="10dp"
+             android:paddingLeft="10dp"
+             />
+    </RelativeLayout>
+    
+    <FrameLayout
+        android:id="@+id/setContent" 
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView 
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:text="友情提示：时息通收益、人脉收益、固息宝6月期及以上产品所获得收益，已经转入账户余额。"
+            android:textColor="#A6A6A6"
+            />
+    </RelativeLayout>
+    
+    
+    
+
+</LinearLayout>

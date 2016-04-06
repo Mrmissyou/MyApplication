@@ -1,0 +1,2 @@
+include ':app', ':myapplication2'
+include ':yitouhang'

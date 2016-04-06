@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.laxiong.yitouhang"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name="com.laxiong.Application.YiTouApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.laxiong.Activity.PatternViewActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.laxiong.Activity.BaseActivity"
+        ></activity>
+        
+        <!-- 日历账单 -->
+        <activity 
+            android:name="com.laxiong.Activity.CalanderCountActivity"
+        ></activity>
+        
+         <!-- VIP -->
+        <activity 
+            android:name="com.laxiong.Activity.ShowVIPActivity"
+        ></activity>
+        
+        <!-- 账户设置 -->
+         <activity 
+            android:name="com.laxiong.Activity.CountSettingActivity"
+         ></activity>
+         
+         <!-- 个人设置 -->
+         <activity 
+            android:name="com.laxiong.Activity.PersonalSettingActivity"
+            android:launchMode="singleTask"
+         ></activity>
+         
+         <!-- 密码管理 -->
+         <activity 
+            android:name="com.laxiong.Activity.PswdConturalActivity"
+         ></activity>
+         
+         <activity 
+            android:name="com.laxiong.Activity.NameSettingActivity"
+         ></activity>
+         
+         <activity 
+            android:name="com.laxiong.Activity.AddressSettingActivity"
+         ></activity>
+         
+         <!-- 实名认证 -->
+         <activity 
+            android:name="com.laxiong.Activity.TrueNameActivity1"
+         ></activity>
+         <activity 
+            android:name="com.laxiong.Activity.TrueNameActivity2"
+         ></activity>
+         <activity 
+            android:name="com.laxiong.Activity.TrueNameActivity3"
+         ></activity>
+        
+         <!-- 修改手机号 -->
+         <activity 
+            android:name="com.laxiong.Activity.ChangeBindPhoneActivity1"
+         ></activity>
+         <activity 
+            android:name="com.laxiong.Activity.ChangeBindPhoneActivity2"
+         ></activity>
+         
+         <activity 
+            android:name="com.laxiong.Activity.ChangeLoginPswdActivity"
+          ></activity>
+         
+         <!-- 修改支付密码 -->
+         <activity 
+            android:name="com.laxiong.Activity.ChangePayPswdActivity1"
+         ></activity>
+         <activity 
+            android:name="com.laxiong.Activity.ChangePayPswdActivity2"
+         ></activity>
+         
+         <!-- 重置支付密码 -->
+         <activity 
+            android:name="com.laxiong.Activity.ResetPayPswdActivity1"
+         ></activity>
+         <activity 
+            android:name="com.laxiong.Activity.ResetPayPswdActivity2"
+         ></activity>
+         <activity 
+            android:name="com.laxiong.Activity.ResetPayPswdActivity3"
+         ></activity>
+         
+         <!-- 注册 -->
+         <activity 
+            android:name="com.laxiong.Activity.RegistActivity"
+         ></activity>
+         
+         <!--  登录 -->
+         <activity 
+            android:name="com.laxiong.Activity.LoginActivity"
+         ></activity>
+         
+         <!-- 找回密码 -->
+         <activity 
+            android:name="com.laxiong.Activity.FoundPswdActivity"
+         ></activity>
+         
+         <!-- 切换账号 -->
+         <activity 
+            android:name="com.laxiong.Activity.ChangeCountActivity"
+         ></activity>
+         
+         <!-- 时息通 -->
+         <activity 
+            android:name="com.laxiong.Activity.TimeXiTongActivity"
+         ></activity>
+        
+         <activity 
+            android:name="com.laxiong.Activity.MessageActivity"
+          ></activity>
+         
+         <!-- 固息宝 -->
+         <activity 
+            android:name="com.laxiong.Activity.GuXiBaoActivity"
+         ></activity>
+         
+         <!-- 资产 -->
+         <activity 
+            android:name="com.laxiong.Activity.AssetActivity"
+         ></activity>
+         
+         <!--可用余额  累计收益  -->
+        <activity 
+           android:name="com.laxiong.Activity.AvailableBalanceActivity"
+        ></activity>
+        
+        <activity 
+           android:name="com.laxiong.Activity.EarningsSayActivity"
+        ></activity>
+        
+        <activity 
+           android:name="com.laxiong.Activity.WithdrawCashDetailsActivity"
+        ></activity>
+        
+        <!-- 提现 -->
+        <activity 
+           android:name="com.laxiong.Activity.WithdrawCashActivity"
+        ></activity>
+        
+        <activity 
+           android:name="com.laxiong.Activity.WithdrawCashNoticeActivity"
+        ></activity>
+        
+        <!-- 设置手势密码 -->
+        <activity
+            android:name="com.laxiong.Activity.MainActivity"
+        ></activity>
+        
+        <!-- 修改手势 -->
+        <activity 
+            android:name="com.laxiong.Activity.ModifyGestureActivity"
+        ></activity>
+        
+         <!-- 转入 -->
+        <activity 
+            android:name="com.laxiong.Activity.TransferInActivity"
+        ></activity>
+          <!-- 转入结果 -->
+        <activity 
+            android:name="com.laxiong.Activity.TransferInResultActivity"
+        ></activity>
+         <!-- 转出-->
+        <activity 
+            android:name="com.laxiong.Activity.TransferOutActivity"
+        ></activity>
+        
+        <!-- H5页面 -->
+       <activity 
+           android:name="com.laxiong.Activity.WebViewActivity"
+       ></activity> 
+       
+       <activity 
+           android:name="com.laxiong.Activity.BuyingActivity"
+       ></activity>
+       
+       <activity 
+           android:name="com.laxiong.Activity.BuyingResultActivity"
+        ></activity>
+       
+       <!-- 充值 -->
+       <activity 
+           android:name="com.laxiong.Activity.RechargeActivity"
+        ></activity>
+       
+    </application>
+
+</manifest>

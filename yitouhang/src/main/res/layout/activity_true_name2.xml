@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/light_grey"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	 <include 
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/white_title_head_layout"/>
+    
+     <RelativeLayout 
+         android:layout_marginTop="3dp"
+         android:layout_width="match_parent"
+         android:layout_height="88dp"
+         android:background="@color/white"
+         >
+         <ImageView
+             android:id="@+id/imgs1"
+             android:layout_width="28dp"
+             android:layout_height="28dp"
+             android:background="@drawable/corners_border"
+             android:layout_marginLeft="60dp"
+             android:layout_marginTop="18dp"
+             />
+         <View
+             android:id="@+id/view1" 
+             android:layout_marginTop="32dp"
+             android:layout_toRightOf="@+id/imgs1"
+             android:layout_width="80dp"
+             android:layout_height="1dp"
+             android:background="@color/divider_grey"
+             />
+          <ImageView
+             android:id="@+id/imgs2"
+             android:layout_width="28dp"
+             android:layout_height="28dp"
+             android:background="@drawable/corners_border"
+             android:layout_marginTop="18dp"
+             android:layout_centerHorizontal="true"
+             />
+         <View
+             android:id="@+id/view2" 
+             android:layout_marginTop="32dp"
+             android:layout_toRightOf="@+id/imgs2"
+             android:layout_width="80dp"
+             android:layout_height="1dp"
+             android:background="@color/divider_grey"
+             />
+         <ImageView
+             android:id="@+id/imgs3"
+             android:layout_width="28dp"
+             android:layout_height="28dp"
+             android:background="@drawable/corners_border"
+             android:layout_marginTop="18dp"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="60dp"
+             />
+
+         <TextView
+             android:id="@+id/completemessage"
+             android:layout_marginTop="5dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/imgs1"
+             android:layout_toLeftOf="@+id/setpassword"
+             android:layout_marginRight="40dp"
+             android:text="完善个人信息"
+             android:textSize="11dp" />
+         
+         <TextView 
+             android:id="@+id/setpassword"
+             android:layout_marginTop="5dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="设置支付密码"
+             android:textSize="11dp"
+             android:layout_below="@+id/imgs2"
+             android:layout_centerHorizontal="true"
+             />
+         
+         <TextView
+             android:id="@+id/bandcard" 
+             android:layout_toRightOf="@+id/setpassword"
+             android:layout_marginLeft="50dp"
+             android:layout_marginTop="5dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="绑定银行卡"
+             android:textSize="11dp"
+             android:layout_below="@+id/imgs3"
+             />
+     </RelativeLayout>
+    
+     <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="@color/divider_grey"  
+       />
+     
+     <TextView 
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:text="用于转入、转出、购买、赎回等支付操作，验证身份"
+         android:textSize="12dp"
+         android:textColor="@color/divider_grey"
+         android:layout_marginLeft="23dp"
+         android:gravity="center_vertical"
+         />
+     
+     
+     <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="@color/divider_grey"  
+       />
+     <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="43dp"
+	        android:background="@color/white"
+	        >
+	        <TextView
+	            android:id="@+id/tv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:gravity="center"
+	            android:paddingLeft="23dp"
+	            android:text="密  码 "
+	            android:textSize="14dp" />
+	        <EditText
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="10dp"
+	            android:layout_toRightOf="@+id/tv"
+	            android:background="@null"
+	            android:gravity="center"
+	            android:hint="输入密码"
+	            android:textSize="14dp" >
+	            <requestFocus />
+	        </EditText>
+	        
+	        <ImageView 
+	            android:layout_width="16dp"
+	            android:layout_height="16dp"
+	            android:layout_alignParentRight="true"
+	            android:background="@drawable/corners_border"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="27dp"
+	            />
+	    </RelativeLayout>
+	    <View 
+	       android:layout_width="match_parent"
+	       android:layout_height="1dp"
+	       android:background="@color/divider_grey"  
+	       />
+     
+      <RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:gravity="center_horizontal"
+         >
+         <TextView
+             android:layout_marginTop="50dp"
+             android:id="@+id/nextpager" 
+             android:layout_width="288dp"
+             android:layout_height="40dp"
+             android:gravity="center"
+             android:textSize="16dp"
+             android:text="下一步"
+             android:textColor="@color/white"
+             android:background="@drawable/button_red_corner_border"
+             />
+         
+     </RelativeLayout>
+     
+     
+     
+</LinearLayout>

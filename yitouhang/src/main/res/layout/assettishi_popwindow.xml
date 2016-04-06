@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kefu_bg"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="280dp"
+        android:layout_height="191dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@drawable/popwindow_bg"
+        >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:text="帐户总资产包括在投(时息通、固息宝)本金、投资和人脉产生的收益、帐户余额，当前页可对相关资产进行跳转查询。"
+            android:paddingTop="40dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="#A6A6A6"
+            />
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_grey"
+           />
+        <TextView
+            android:id="@+id/btn" 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="朕知道了"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+    
+    
+
+</RelativeLayout>

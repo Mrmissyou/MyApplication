@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_alignParentBottom="true"
+        >
+	    <!-- 联系客服部分 -->
+	    <LinearLayout
+	        android:id="@+id/linearlayout" 
+	        android:layout_width="match_parent"
+	        android:layout_height="81dp"
+	        android:background="@drawable/popwindow_bg"
+	        android:orientation="vertical"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        >
+	        <TextView 
+	            android:id="@+id/onlinekefu"
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:text="在线客服"
+	            android:gravity="center"
+	            />
+	        <View 
+	            android:layout_width="match_parent"
+	            android:layout_height="1dp"
+	            android:background="@color/divider_grey"
+	            />
+	        <RelativeLayout 
+	            android:id="@+id/kefutel"
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:gravity="center"
+	            >
+	            <TextView 
+	                android:id="@+id/tv"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="拨打电话"
+	                android:layout_marginRight="5dp"
+	                />
+	             <TextView 
+	                android:layout_toRightOf="@+id/tv"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="400-0888-888"
+	                android:textColor="@color/light_green"
+	                />
+	        </RelativeLayout>
+	    </LinearLayout>
+	    
+	    <TextView
+	        android:id="@+id/concel_kefu"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@drawable/popwindow_bg"
+	        android:layout_marginTop="10dp" 
+	        android:layout_marginBottom="10dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:layout_below="@id/linearlayout"
+	        android:text="取消"
+	        android:gravity="center"
+	        />
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kefu_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="280dp"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:background="@drawable/popwindow_bg"
+        >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            >
+            <ImageView 
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:background="@drawable/corners_border"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+        
+        <View 
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/divider_grey"  
+          />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/iknow"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="朕知道了"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+            <View 
+              android:layout_width="1dp"
+              android:layout_height="match_parent"
+              android:background="@color/divider_grey"  
+              />
+             <TextView
+                android:id="@+id/setid"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="验证身份"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,227 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:2:1-213:12
+	xmlns:android
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml
+		INJECTED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml
+		INJECTED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml
+		INJECTED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:19.1.0] D:\work\android_studio\workspace\MyApplication\yitouhang\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:18:5-42
+	android:targetSdkVersion
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml
+		INJECTED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml
+		INJECTED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:10:22-64
+application
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:12:5-211:19
+MERGED from [com.android.support:appcompat-v7:19.1.0] D:\work\android_studio\workspace\MyApplication\yitouhang\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:19:5-20
+	android:label
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:17:9-40
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:13:9-64
+activity#com.laxiong.Activity.PatternViewActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:18:9-27:20
+	android:label
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:19:13-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:21:13-26:29
+action#android.intent.action.MAIN
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:25:27-74
+activity#com.laxiong.Activity.BaseActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:29:9-31:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:30:13-61
+activity#com.laxiong.Activity.CalanderCountActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:34:9-36:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:35:13-70
+activity#com.laxiong.Activity.ShowVIPActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:39:9-41:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:40:13-64
+activity#com.laxiong.Activity.CountSettingActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:44:10-46:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:45:13-69
+activity#com.laxiong.Activity.PersonalSettingActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:49:10-52:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:50:13-72
+	android:launchMode
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:51:13-44
+activity#com.laxiong.Activity.PswdConturalActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:55:10-57:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:56:13-69
+activity#com.laxiong.Activity.NameSettingActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:59:10-61:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:60:13-68
+activity#com.laxiong.Activity.AddressSettingActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:63:10-65:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:64:13-71
+activity#com.laxiong.Activity.TrueNameActivity1
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:68:10-70:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:69:13-66
+activity#com.laxiong.Activity.TrueNameActivity2
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:71:10-73:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:72:13-66
+activity#com.laxiong.Activity.TrueNameActivity3
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:74:10-76:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:75:13-66
+activity#com.laxiong.Activity.ChangeBindPhoneActivity1
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:79:10-81:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:80:13-73
+activity#com.laxiong.Activity.ChangeBindPhoneActivity2
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:82:10-84:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:83:13-73
+activity#com.laxiong.Activity.ChangeLoginPswdActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:86:10-88:23
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:87:13-72
+activity#com.laxiong.Activity.ChangePayPswdActivity1
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:91:10-93:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:92:13-71
+activity#com.laxiong.Activity.ChangePayPswdActivity2
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:94:10-96:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:95:13-71
+activity#com.laxiong.Activity.ResetPayPswdActivity1
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:99:10-101:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:100:13-70
+activity#com.laxiong.Activity.ResetPayPswdActivity2
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:102:10-104:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:103:13-70
+activity#com.laxiong.Activity.ResetPayPswdActivity3
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:105:10-107:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:106:13-70
+activity#com.laxiong.Activity.RegistActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:110:10-112:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:111:13-63
+activity#com.laxiong.Activity.LoginActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:115:10-117:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:116:13-62
+activity#com.laxiong.Activity.FoundPswdActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:120:10-122:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:121:13-66
+activity#com.laxiong.Activity.ChangeCountActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:125:10-127:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:126:13-68
+activity#com.laxiong.Activity.TimeXiTongActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:130:10-132:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:131:13-67
+activity#com.laxiong.Activity.MessageActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:134:10-136:23
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:135:13-64
+activity#com.laxiong.Activity.GuXiBaoActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:139:10-141:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:140:13-64
+activity#com.laxiong.Activity.AssetActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:144:10-146:22
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:145:13-62
+activity#com.laxiong.Activity.AvailableBalanceActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:149:9-151:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:150:12-72
+activity#com.laxiong.Activity.EarningsSayActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:153:9-155:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:154:12-67
+activity#com.laxiong.Activity.WithdrawCashDetailsActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:157:9-159:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:158:12-75
+activity#com.laxiong.Activity.WithdrawCashActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:162:9-164:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:163:12-68
+activity#com.laxiong.Activity.WithdrawCashNoticeActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:166:9-168:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:167:12-74
+activity#com.laxiong.Activity.MainActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:171:9-173:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:172:13-61
+activity#com.laxiong.Activity.ModifyGestureActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:176:9-178:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:177:13-70
+activity#com.laxiong.Activity.TransferInActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:181:9-183:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:182:13-67
+activity#com.laxiong.Activity.TransferInResultActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:185:9-187:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:186:13-73
+activity#com.laxiong.Activity.TransferOutActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:189:9-191:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:190:13-68
+activity#com.laxiong.Activity.WebViewActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:194:8-196:20
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:195:12-63
+activity#com.laxiong.Activity.BuyingActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:198:8-200:20
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:199:12-62
+activity#com.laxiong.Activity.BuyingResultActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:202:8-204:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:203:12-68
+activity#com.laxiong.Activity.RechargeActivity
+ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:207:8-209:21
+	android:name
+		ADDED from D:\work\android_studio\workspace\MyApplication\yitouhang\src\main\AndroidManifest.xml:208:12-64

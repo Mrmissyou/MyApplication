@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical" >
+    <include 
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/white_title_head_layout"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="23dp"
+        >
+        <TextView 
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:text="设置新的支付密码，不可与原密码一样哦"
+        	android:textSize="12dp"
+        	android:gravity="center_vertical"
+       		 />
+    </RelativeLayout>
+    
+    
+    <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="23dp"
+        android:background="@color/white"
+        >
+        <EditText 
+        	android:layout_width="wrap_content"
+        	android:layout_height="40dp"
+        	android:textSize="12dp"
+        	android:hint="新支付密码（由字母、数字等11位组成）"
+        	android:background="@null"
+        	/>
+        <RelativeLayout 
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            > 
+            <ImageView 
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@color/divider_grey"
+                />
+       </RelativeLayout>
+    </RelativeLayout>
+    <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/divider_grey"  
+      />
+    
+    
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView 
+            android:id="@+id/complete"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:text="完成"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_red_corner_border"
+            />
+    </RelativeLayout>
+    
+    
+
+</LinearLayout>
