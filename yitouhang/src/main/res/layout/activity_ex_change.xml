@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <com.laxiong.View.CommonActionBar
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        custom:bgcolor="@color/title_grey"
+        custom:texts="@string/welfare_exchange_title"
+        custom:textcolor="@color/white"
+        custom:textsize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_bg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/grey_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exchange_string"
+            android:textColor="@color/grey_bg_text" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/rltop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/tv_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="1元"
+                android:textColor="@color/maintext_grey"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="100"
+                android:textColor="@color/red"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/tv_total"
+                android:text="壹币"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_discrible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rltop"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/discount_string"
+            android:textColor="@color/shen_grey"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_discrible"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey_bg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_select"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="选择数量"
+            android:textColor="@color/maintext_grey"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape_rec_border"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_deduct"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_rec_border"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="@color/shen_grey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_ecnum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/tv_plus"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_rec_border"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="@color/maintext_grey"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/welfare_explain_title"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_discrible"
+            android:background="@color/grey_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/redpaper_string"
+            android:textColor="@color/shen_grey" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:layout_below="@id/tv_discrible"
+            android:background="@color/grey_bg" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/redpaper_string2"
+            android:textColor="@color/shen_grey" />
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_jiesuannum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="100"/>
+        <TextView
+            android:id="@+id/tv_exchange"
+            android:background="@drawable/shape_redbtn_border"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="@string/exchange_btn_im"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

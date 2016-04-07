@@ -90,14 +90,23 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="black">#000000</color>
     <color name="default_ev_border_color">#CCCCCC</color>
     <color name="default_ev_password_color">#CCCCCC</color>
     <color name="divider_grey">#cccccc</color>
     <color name="fresh_green">#c4f089</color>
+    <color name="futext_grey">#666666</color>
+    <color name="grey_bg">#D6D6D6</color>
+    <color name="grey_bg_text">#A6A6A6</color>
+    <color name="grey_btn">#E6E6E6</color>
     <color name="light_green">#83c254</color>
     <color name="light_grey">#F5F5F5</color>
     <color name="light_white">#66ffffff</color>
+    <color name="maintext_grey">#333333</color>
+    <color name="money">#EE7737</color>
     <color name="press_light_green">#6683c254</color>
+    <color name="red">#ff0000</color>
+    <color name="shen_grey">#999999</color>
     <color name="text_mi">#efede0</color>
     <color name="title_grey">#EE4E42</color>
     <color name="white">#ffffff</color>
@@ -110,6 +119,7 @@
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
     <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
     <declare-styleable name="CircleProgressView"><attr format="string" name="text"/><attr format="string" name="unit"/><attr format="boolean" name="showUnit"/><attr format="color" name="textColor"/><attr format="color" name="unitColor"/><attr format="dimension" name="textSize"/><attr format="color" name="spinColor"/><attr format="dimension" name="maxValue"/><attr format="color" name="barColor"/><attr format="color" name="barColor1"/><attr format="color" name="barColor2"/><attr format="color" name="barColor3"/><attr format="color" name="rimColor"/><attr format="dimension" name="rimWidth"/><attr format="dimension" name="barWidth"/><attr format="dimension" name="spinSpeed"/><attr format="color" name="fillColor"/><attr format="dimension" name="spinBarLength"/><attr format="color" name="contourColor"/><attr format="dimension" name="contourSize"/><attr format="dimension" name="textScale"/><attr format="dimension" name="unitScale"/></declare-styleable>
+    <declare-styleable name="CommonActionBar"><attr format="string" name="texts"/><attr format="color" name="bgcolor"/><attr format="color" name="textcolor"/><attr format="dimension" name="textsize"/></declare-styleable>
     <declare-styleable name="CompatTextView"><attr format="reference|boolean" name="textAllCaps"/></declare-styleable>
     <declare-styleable name="LinearLayoutICS"><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
@@ -175,13 +185,25 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">Yitouhang</string>
+    <string name="dialog_input_tip">请输入壹投行支付密码</string>
+    <string name="discount_string">投资固息宝满100折扣1元</string>
     <string name="earning_string">这个区域是对昨日收益和累积收益的说明，这个区域是对昨日收益和累积收益的说明，这个区域是对昨日收益和累积收益的说明。
     这个区域是对昨日收益和累积收益的说明，这个区域是对昨日收益和累积收益的说明，这个区域是对昨日收益和累积收益的说明，这个区域是对昨日收益和累积收益的说明。</string>
+    <string name="exchange_btn_im">立即兑换</string>
+    <string name="exchange_btn_noenum">壹币不足</string>
+    <string name="exchange_string">这个区域是一个带有一元字样的红包图片\n这个区域是一个带有一元字样的红包图片\n这个区域是一个带有一元字样的红包图片</string>
     <string name="hello_world">Hello world!</string>
     <string name="listfooterview_normal">查看更多</string>
     <string name="listfooterview_ready">松开载入更多</string>
+    <string name="redpaper_string">红包兑换后有效期是30天;\n红包仅限本人使用,不可以提现、转让;\n红包为平台增值福利,投资时需手动勾选;
+    </string>
+    <string name="redpaper_string2">红包一经兑换,不退回壹币,请您兑换前仔细阅读商城规则、使用说明等重要信息;\n通过不正当手段
+    获得壹币进行兑换行为者,或不按商品使用规则进行兑换的用户,壹投行有权立即停止服务并追究其法律责任;\n红包兑换最终解释权归壹投行所有</string>
+    <string name="welfare_exchange_title">兑换详情</string>
+    <string name="welfare_explain">红包说明</string>
+    <string name="welfare_explain_title">使用说明</string>
+    <string name="welfare_title">我的红包</string>
     <string name="withdrawcash_string">    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明。
-
 1、每笔提现不少于100元，若帐户余额少于100元，则一次性提现全部余额；
 2、已投资资金不收取手续费，未投资资金收取0.3%的手续费，手续费最低为1元；
 3、提现预计在1-2个工作日到账。</string>
@@ -770,4 +792,15 @@
     <style name="Widget.AppCompat.ProgressBar" parent="Widget.AppCompat.Base.ProgressBar"/>
     <style name="Widget.AppCompat.ProgressBar.Horizontal" parent="Widget.AppCompat.Base.ProgressBar.Horizontal"/>
     <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Widget.AppCompat.Base.Spinner"/>
+    <style name="commontext">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="whiteText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+    </style>
 </resources>

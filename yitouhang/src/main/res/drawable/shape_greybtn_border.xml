@@ -1,0 +1,5 @@
+<!--壹币不足-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="40dp"/>
+    <solid android:color="@color/grey_btn"/>
+</shape>

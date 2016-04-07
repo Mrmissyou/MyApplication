@@ -4,19 +4,34 @@
     <string name="app_name">Yitouhang</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    
+
     <string name="listfooterview_normal">查看更多</string>
     <string name="listfooterview_ready">松开载入更多</string>
-
-    
+    <!--福利中心-->
+    <string name="welfare_title">我的红包</string>
+    <string name="welfare_explain">红包说明</string>
+    <string name="welfare_explain_title">使用说明</string>
+    <string name="welfare_exchange_title">兑换详情</string>
+    <!--兑换 -->
+    <string name="exchange_btn_im">立即兑换</string>
+    <string name="exchange_btn_noenum">壹币不足</string>
+    <!--输入密码dialog-->
+    <string name="dialog_input_tip">请输入壹投行支付密码</string>
     <!-- 收益说明 -->
     <string name="earning_string">这个区域是对昨日收益和累积收益的说明，这个区域是对昨日收益和累积收益的说明，这个区域是对昨日收益和累积收益的说明。
     这个区域是对昨日收益和累积收益的说明，这个区域是对昨日收益和累积收益的说明，这个区域是对昨日收益和累积收益的说明，这个区域是对昨日收益和累积收益的说明。</string>
-
-	<!-- 提现说明 -->
+    <!--折扣说明-->
+    <string name="discount_string">投资固息宝满100折扣1元</string>
+    <!--兑换说明-->
+    <string name="exchange_string">这个区域是一个带有一元字样的红包图片\n这个区域是一个带有一元字样的红包图片\n这个区域是一个带有一元字样的红包图片</string>
+    <!-- 提现说明 -->
  	<string name="withdrawcash_string">    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明，    这个区域是对提现相关问题的说明。
-
 1、每笔提现不少于100元，若帐户余额少于100元，则一次性提现全部余额；
 2、已投资资金不收取手续费，未投资资金收取0.3%的手续费，手续费最低为1元；
 3、提现预计在1-2个工作日到账。</string>
+    <!--红包说明 -->
+    <string name="redpaper_string">红包兑换后有效期是30天;\n红包仅限本人使用,不可以提现、转让;\n红包为平台增值福利,投资时需手动勾选;
+    </string>
+    <string name="redpaper_string2">红包一经兑换,不退回壹币,请您兑换前仔细阅读商城规则、使用说明等重要信息;\n通过不正当手段
+    获得壹币进行兑换行为者,或不按商品使用规则进行兑换的用户,壹投行有权立即停止服务并追究其法律责任;\n红包兑换最终解释权归壹投行所有</string>
 </resources>
